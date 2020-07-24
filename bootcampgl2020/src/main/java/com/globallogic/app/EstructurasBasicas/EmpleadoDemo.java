@@ -2,10 +2,10 @@ package com.globallogic.app.EstructurasBasicas;
 
 public class EmpleadoDemo {
     public static void main(String[] args) {
-        Empleado empleado = new Empleado();
+        new Empleado();
 
-        empleado.setSalario(1000);
+        Empleado.setSalario(1000);
 
-        System.out.println(empleado.getNombre() + " tiene un salario promedio de " + empleado.getSalario());
+        System.out.println(Empleado.getNombre() + " tiene un salario promedio de " + Empleado.getSalario());
     }
 }
