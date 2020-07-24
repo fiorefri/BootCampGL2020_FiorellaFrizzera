@@ -1,1 +1,5 @@
+com\globallogic\app\ControlDeFlujos\For.class
+com\globallogic\app\ControlDeFlujos\ForEach.class
+com\globallogic\app\ControlDeFlujos\While.class
+com\globallogic\app\ControlDeFlujos\If.class
 com\globallogic\app\App.class
