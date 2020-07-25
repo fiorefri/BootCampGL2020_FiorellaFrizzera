@@ -73,11 +73,7 @@ public class MainPolimorfismo {
         System.out.print("\n");
 
         // Lista Electrodomesticos
-        Heladera heladera1 = new Heladera();
-        Televisor televisor1 = new Televisor();
-        Cafetera cafetera1 = new Cafetera();
-
-        Electrodomestico[] electros = {heladera1, televisor1, cafetera1};
+        Electrodomestico[] electros = {heladera, televisor, cafetera};
 
         for (Electrodomestico electro : electros) {
             electro.encender();
