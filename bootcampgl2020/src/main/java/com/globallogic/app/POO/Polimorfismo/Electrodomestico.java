@@ -6,11 +6,11 @@ public class Electrodomestico {
     public char consumo;
     public String color;
 
-    static void encender() {
+    public void encender() {
         System.out.println("Encendiendo electrodomestico");
     }
 
-    static void apagar() {
+    public void apagar() {
         System.out.println("Apagando electrodomestico");
     }
 }

@@ -23,10 +23,10 @@ public class MainPolimorfismo {
         System.out.println("La heladera es de capacidad: " + heladera.capacidad);
         System.out.println("La heladera tiene freezer? " + heladera.tieneFreezer);
         System.out.println("El freezer tiene capacidad: " + heladera.capacidadFreezer);
-        Heladera.encender();
-        Heladera.apagar();
-        Heladera.guardarElemento("Manzana");
-        Heladera.extraerElemento("Pera");
+        heladera.encender();
+        heladera.apagar();
+        heladera.guardarElemento("Manzana");
+        heladera.extraerElemento("Pera");
 
         System.out.print("\n");
 
@@ -46,9 +46,9 @@ public class MainPolimorfismo {
         System.out.println("El televisor es de color: " + televisor.color);
         System.out.println("El televisor es de pulgadas: " + televisor.marca);
         System.out.println("El televisor es de resolucion: " + televisor.resolucion);
-        Televisor.encender();
-        Televisor.apagar();
-        Televisor.cambiarCanal(15);
+        televisor.encender();
+        televisor.apagar();
+        televisor.cambiarCanal(15);
 
         System.out.print("\n");
 
@@ -66,23 +66,21 @@ public class MainPolimorfismo {
         System.out.println("La cafetera es de consumo: " + cafetera.consumo);
         System.out.println("La cafetera es de color: " + cafetera.color);
         System.out.println("La cafetera es de litros: " + cafetera.litros);
-        Cafetera.encender();
-        Cafetera.apagar();
-        Cafetera.elegirSabor("Capuccino");
+        cafetera.encender();
+        cafetera.apagar();
+        cafetera.elegirSabor("Capuccino");
 
         System.out.print("\n");
 
         // Lista Electrodomesticos
-        /* List<Electrodomestico> electros = new ArrayList<Electrodomestico>();
+        Heladera heladera1 = new Heladera();
+        Televisor televisor1 = new Televisor();
+        Cafetera cafetera1 = new Cafetera();
 
-        electros.add(heladera);
-        electros.add(televisor);
-        electros.add(cafetera);
+        Electrodomestico[] electros = {heladera1, televisor1, cafetera1};
 
         for (Electrodomestico electro : electros) {
-            if (electro.encender()) {
-                System.out.println(electro.encender());
-            }
-        } */
+            electro.encender();
+        }
     }
 }

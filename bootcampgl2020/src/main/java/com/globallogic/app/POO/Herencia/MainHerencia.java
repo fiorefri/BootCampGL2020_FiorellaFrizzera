@@ -14,8 +14,8 @@ public class MainHerencia {
         System.out.println("El electrodomestico es de peso: " + electro.peso);
         System.out.println("El electrodomestico es de consumo: " + electro.consumo);
         System.out.println("El electrodomestico es de color: " + electro.color);
-        Electrodomestico.encender();
-        Electrodomestico.apagar();
+        electro.encender();
+        electro.apagar();
 
         System.out.print("\n");
 
@@ -37,9 +37,9 @@ public class MainHerencia {
         System.out.println("La heladera es de capacidad: " + heladera.capacidad);
         System.out.println("La heladera tiene freezer? " + heladera.tieneFreezer);
         System.out.println("El freezer tiene capacidad: " + heladera.capacidadFreezer);
-        Heladera.encender();
-        Heladera.apagar();
-        Heladera.guardarElemento("Manzana");
-        Heladera.extraerElemento("Pera");
+        heladera.encender();
+        heladera.apagar();
+        heladera.guardarElemento("Manzana");
+        heladera.extraerElemento("Pera");
     }
 }

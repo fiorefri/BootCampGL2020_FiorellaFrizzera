@@ -4,11 +4,11 @@ public class Televisor extends Electrodomestico {
     public double pulgadas;
     public String resolucion;
 
-    static void encender() {
+    public void encender() {
         System.out.println("Encendiendo televisor");
     }
 
-    static void cambiarCanal(int canal) {
+    public void cambiarCanal(int canal) {
         System.out.println("Cambiando al canal " + canal);
     }
 }

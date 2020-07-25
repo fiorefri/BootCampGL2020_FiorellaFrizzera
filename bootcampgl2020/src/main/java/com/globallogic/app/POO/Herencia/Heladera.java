@@ -5,11 +5,11 @@ public class Heladera extends Electrodomestico {
     public boolean tieneFreezer;
     public double capacidadFreezer;
 
-    static void guardarElemento(String elemento) {
+    public void guardarElemento(String elemento) {
         System.out.println("Guardando " + elemento);
     }
 
-    static void extraerElemento(String elemento) {
+    public void extraerElemento(String elemento) {
         System.out.println("Extrayendo " + elemento);
     }
 }
