@@ -1,8 +1,5 @@
 package com.globallogic.app.POO.Polimorfismo;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MainPolimorfismo {
     public static void main(String[] args) {
         // Heladera
