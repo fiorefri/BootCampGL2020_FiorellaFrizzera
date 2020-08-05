@@ -1,3 +1,20 @@
+target/
+bin/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
 .idea
-'.idea'
-*.class
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
